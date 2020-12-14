@@ -34,5 +34,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng loc = new LatLng(34.080445, -118.411847);
         mMap.addMarker(new MarkerOptions().position(loc).title("Marker in Loc"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(loc,14));
+        System.out.println("worked");
     }
 }
